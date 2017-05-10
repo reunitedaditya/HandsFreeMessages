@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171CF17B50B8D08A8AC4C25F /* Pods_HandsFreeMessagingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF281735757A972E3F8C8B7D /* Pods_HandsFreeMessagingUITests.framework */; };
+		480E0D491EC3795D00DC1015 /* muzli.json in Resources */ = {isa = PBXBuildFile; fileRef = 480E0D481EC3795D00DC1015 /* muzli.json */; };
 		48549B601EC36EB70064EC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48549B5F1EC36EB70064EC36 /* AppDelegate.swift */; };
 		48549B621EC36EB70064EC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48549B611EC36EB70064EC36 /* ViewController.swift */; };
 		48549B651EC36EB70064EC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48549B631EC36EB70064EC36 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		48549B6A1EC36EB70064EC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48549B681EC36EB70064EC36 /* LaunchScreen.storyboard */; };
 		48549B751EC36EB70064EC36 /* HandsFreeMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48549B741EC36EB70064EC36 /* HandsFreeMessagingTests.swift */; };
 		48549B801EC36EB70064EC36 /* HandsFreeMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48549B7F1EC36EB70064EC36 /* HandsFreeMessagingUITests.swift */; };
+		9B598BD08F08C01D47C33E45 /* Pods_HandsFreeMessagingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF82DA46B1DD6C014C0D3A1 /* Pods_HandsFreeMessagingTests.framework */; };
+		AC30BFD9144E512D346AA6D1 /* Pods_HandsFreeMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88C1D5D22363FCB270C2EA9 /* Pods_HandsFreeMessaging.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261C73E652D568A7A7B2C57F /* Pods-HandsFreeMessagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessagingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessagingTests/Pods-HandsFreeMessagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		434CC79A5721C2A665CEA8BC /* Pods-HandsFreeMessagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessagingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessagingTests/Pods-HandsFreeMessagingTests.release.xcconfig"; sourceTree = "<group>"; };
+		480E0D481EC3795D00DC1015 /* muzli.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = muzli.json; sourceTree = "<group>"; };
 		48549B5C1EC36EB70064EC36 /* HandsFreeMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandsFreeMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48549B5F1EC36EB70064EC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48549B611EC36EB70064EC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		48549B7B1EC36EB70064EC36 /* HandsFreeMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsFreeMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48549B7F1EC36EB70064EC36 /* HandsFreeMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsFreeMessagingUITests.swift; sourceTree = "<group>"; };
 		48549B811EC36EB70064EC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B798CE85CB07BC6F96D1B67 /* Pods-HandsFreeMessagingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessagingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessagingUITests/Pods-HandsFreeMessagingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF82DA46B1DD6C014C0D3A1 /* Pods_HandsFreeMessagingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsFreeMessagingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2A104EA3D6B9EFB04B83E2 /* Pods-HandsFreeMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessaging/Pods-HandsFreeMessaging.debug.xcconfig"; sourceTree = "<group>"; };
+		C88C1D5D22363FCB270C2EA9 /* Pods_HandsFreeMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsFreeMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF281735757A972E3F8C8B7D /* Pods_HandsFreeMessagingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsFreeMessagingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CF410F9767E7C27B12B5E9 /* Pods-HandsFreeMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessaging/Pods-HandsFreeMessaging.release.xcconfig"; sourceTree = "<group>"; };
+		DB62D2C2FC974249AA2E2075 /* Pods-HandsFreeMessagingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsFreeMessagingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandsFreeMessagingUITests/Pods-HandsFreeMessagingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC30BFD9144E512D346AA6D1 /* Pods_HandsFreeMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B598BD08F08C01D47C33E45 /* Pods_HandsFreeMessagingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171CF17B50B8D08A8AC4C25F /* Pods_HandsFreeMessagingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127630CDFC9F682C3473E7BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88C1D5D22363FCB270C2EA9 /* Pods_HandsFreeMessaging.framework */,
+				9FF82DA46B1DD6C014C0D3A1 /* Pods_HandsFreeMessagingTests.framework */,
+				CF281735757A972E3F8C8B7D /* Pods_HandsFreeMessagingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48549B531EC36EB70064EC36 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				48549B731EC36EB70064EC36 /* HandsFreeMessagingTests */,
 				48549B7E1EC36EB70064EC36 /* HandsFreeMessagingUITests */,
 				48549B5D1EC36EB70064EC36 /* Products */,
+				C9D94D3E0B90B5B842A93BFE /* Pods */,
+				127630CDFC9F682C3473E7BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +126,7 @@
 		48549B5E1EC36EB70064EC36 /* HandsFreeMessaging */ = {
 			isa = PBXGroup;
 			children = (
+				480E0D481EC3795D00DC1015 /* muzli.json */,
 				48549B5F1EC36EB70064EC36 /* AppDelegate.swift */,
 				48549B611EC36EB70064EC36 /* ViewController.swift */,
 				48549B631EC36EB70064EC36 /* Main.storyboard */,
@@ -125,6 +155,19 @@
 			path = HandsFreeMessagingUITests;
 			sourceTree = "<group>";
 		};
+		C9D94D3E0B90B5B842A93BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A104EA3D6B9EFB04B83E2 /* Pods-HandsFreeMessaging.debug.xcconfig */,
+				D5CF410F9767E7C27B12B5E9 /* Pods-HandsFreeMessaging.release.xcconfig */,
+				261C73E652D568A7A7B2C57F /* Pods-HandsFreeMessagingTests.debug.xcconfig */,
+				434CC79A5721C2A665CEA8BC /* Pods-HandsFreeMessagingTests.release.xcconfig */,
+				4B798CE85CB07BC6F96D1B67 /* Pods-HandsFreeMessagingUITests.debug.xcconfig */,
+				DB62D2C2FC974249AA2E2075 /* Pods-HandsFreeMessagingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48549B841EC36EB70064EC36 /* Build configuration list for PBXNativeTarget "HandsFreeMessaging" */;
 			buildPhases = (
+				B516F62229D4B639B62E2E66 /* [CP] Check Pods Manifest.lock */,
 				48549B581EC36EB70064EC36 /* Sources */,
 				48549B591EC36EB70064EC36 /* Frameworks */,
 				48549B5A1EC36EB70064EC36 /* Resources */,
+				30B3B18C4CF466FA523C3002 /* [CP] Embed Pods Frameworks */,
+				6518C6847126921D6B96B9F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48549B871EC36EB70064EC36 /* Build configuration list for PBXNativeTarget "HandsFreeMessagingTests" */;
 			buildPhases = (
+				A86E3F9A1EA0A119CCA2D914 /* [CP] Check Pods Manifest.lock */,
 				48549B6C1EC36EB70064EC36 /* Sources */,
 				48549B6D1EC36EB70064EC36 /* Frameworks */,
 				48549B6E1EC36EB70064EC36 /* Resources */,
+				F25F947BCEE4DBBEA7860FE1 /* [CP] Embed Pods Frameworks */,
+				370B7FC3A04739E0A794C6C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48549B8A1EC36EB70064EC36 /* Build configuration list for PBXNativeTarget "HandsFreeMessagingUITests" */;
 			buildPhases = (
+				0F0B352EFD704AF19ABAADA5 /* [CP] Check Pods Manifest.lock */,
 				48549B771EC36EB70064EC36 /* Sources */,
 				48549B781EC36EB70064EC36 /* Frameworks */,
 				48549B791EC36EB70064EC36 /* Resources */,
+				3517B6F6A751306D15D57DF5 /* [CP] Embed Pods Frameworks */,
+				678EB5C026FA0F8DDCC329F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +290,7 @@
 				48549B6A1EC36EB70064EC36 /* LaunchScreen.storyboard in Resources */,
 				48549B671EC36EB70064EC36 /* Assets.xcassets in Resources */,
 				48549B651EC36EB70064EC36 /* Main.storyboard in Resources */,
+				480E0D491EC3795D00DC1015 /* muzli.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0B352EFD704AF19ABAADA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30B3B18C4CF466FA523C3002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessaging/Pods-HandsFreeMessaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3517B6F6A751306D15D57DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessagingUITests/Pods-HandsFreeMessagingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370B7FC3A04739E0A794C6C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessagingTests/Pods-HandsFreeMessagingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6518C6847126921D6B96B9F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessaging/Pods-HandsFreeMessaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678EB5C026FA0F8DDCC329F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessagingUITests/Pods-HandsFreeMessagingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86E3F9A1EA0A119CCA2D914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B516F62229D4B639B62E2E66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F25F947BCEE4DBBEA7860FE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandsFreeMessagingTests/Pods-HandsFreeMessagingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48549B581EC36EB70064EC36 /* Sources */ = {
@@ -413,12 +604,13 @@
 		};
 		48549B851EC36EB70064EC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2A104EA3D6B9EFB04B83E2 /* Pods-HandsFreeMessaging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QL4DD46KZM;
 				INFOPLIST_FILE = HandsFreeMessaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HandsFreeMessaging;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HandsFreeMessaging12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,12 +618,13 @@
 		};
 		48549B861EC36EB70064EC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CF410F9767E7C27B12B5E9 /* Pods-HandsFreeMessaging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QL4DD46KZM;
 				INFOPLIST_FILE = HandsFreeMessaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HandsFreeMessaging;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HandsFreeMessaging12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,6 +632,7 @@
 		};
 		48549B881EC36EB70064EC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261C73E652D568A7A7B2C57F /* Pods-HandsFreeMessagingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		48549B891EC36EB70064EC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434CC79A5721C2A665CEA8BC /* Pods-HandsFreeMessagingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		48549B8B1EC36EB70064EC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B798CE85CB07BC6F96D1B67 /* Pods-HandsFreeMessagingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QL4DD46KZM;
@@ -483,6 +679,7 @@
 		};
 		48549B8C1EC36EB70064EC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB62D2C2FC974249AA2E2075 /* Pods-HandsFreeMessagingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QL4DD46KZM;
@@ -514,6 +711,7 @@
 				48549B861EC36EB70064EC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48549B871EC36EB70064EC36 /* Build configuration list for PBXNativeTarget "HandsFreeMessagingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				48549B891EC36EB70064EC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48549B8A1EC36EB70064EC36 /* Build configuration list for PBXNativeTarget "HandsFreeMessagingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				48549B8C1EC36EB70064EC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

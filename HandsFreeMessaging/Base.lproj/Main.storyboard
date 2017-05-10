@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HandsFreeMessaging" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,89 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqx-cR-TTD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="hideKeyboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yMU-kg-UVW"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wXi-jF-522">
+                                <rect key="frame" x="0.0" y="36" width="375" height="201"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="1xf-fu-ayD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnc-D9-7Wz">
+                                <rect key="frame" x="147" y="542" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="cMt-d4-erL"/>
+                                    <constraint firstAttribute="width" constant="80" id="eEr-jm-g1Q"/>
+                                </constraints>
+                                <state key="normal" image="ic_mic"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="performSpeechToText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Syg-AO-VgY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY9-Ye-XtB">
+                                <rect key="frame" x="187.5" y="477" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2y-Wr-pRY">
+                                <rect key="frame" x="200" y="277" width="142" height="35"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.72941176470588232" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="Ekb-kX-o0A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="Send Message">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMessageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0cJ-pQ-Mcq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PY9-Ye-XtB" firstAttribute="centerX" secondItem="Fnc-D9-7Wz" secondAttribute="centerX" id="7w0-lA-xK6"/>
+                            <constraint firstItem="R2y-Wr-pRY" firstAttribute="trailing" secondItem="wXi-jF-522" secondAttribute="trailing" constant="-33" id="FDM-rV-Lpe"/>
+                            <constraint firstItem="Fnc-D9-7Wz" firstAttribute="top" secondItem="wXi-jF-522" secondAttribute="bottom" constant="305" id="KWA-A9-XAf"/>
+                            <constraint firstAttribute="trailing" secondItem="wXi-jF-522" secondAttribute="trailing" id="MMx-25-HGg"/>
+                            <constraint firstItem="Fnc-D9-7Wz" firstAttribute="centerX" secondItem="wXi-jF-522" secondAttribute="centerX" id="TQp-2C-UFp"/>
+                            <constraint firstItem="R2y-Wr-pRY" firstAttribute="top" secondItem="wXi-jF-522" secondAttribute="bottom" constant="40" id="X8u-MG-Kly"/>
+                            <constraint firstItem="Fnc-D9-7Wz" firstAttribute="top" secondItem="PY9-Ye-XtB" secondAttribute="bottom" constant="65" id="aR5-Qd-dMs"/>
+                            <constraint firstItem="wXi-jF-522" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="lDy-mu-Zr2"/>
+                            <constraint firstItem="wXi-jF-522" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u1D-Ny-ITj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sendMessage" destination="R2y-Wr-pRY" id="Dys-nx-O6h"/>
+                        <outlet property="speakButton" destination="Fnc-D9-7Wz" id="2ZX-cJ-uMo"/>
+                        <outlet property="statusLabel" destination="PY9-Ye-XtB" id="kiZ-bc-vsq"/>
+                        <outlet property="textView" destination="wXi-jF-522" id="Rzm-6C-QpT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="66.11694152923539"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_mic" width="24" height="24"/>
+    </resources>
 </document>
